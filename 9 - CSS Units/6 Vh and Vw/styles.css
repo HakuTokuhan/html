@@ -16,4 +16,7 @@ vw - width - percent of the screen
 }
 
 .about {
+  background: blue;
+  height: 43vh;
+  width: 54vw;
 }
