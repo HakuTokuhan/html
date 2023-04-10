@@ -1,0 +1,23 @@
+/*
+font-weight how thick or thin characters in text should be
+font-style set font style for a text 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Slab&family=Sedgwick+Ave+Display&display=swap");
+body {
+  font-family: "Alkatra", cursive;
+}
+.main-heading {
+  font-family: "Roboto Slab", serif;
+}
+.sub-heading {
+  /* font-style: italic; */
+}
+.one {
+  font-weight: bold;
+}
+.two {
+  /* font-weight: lighter;
+    font-style: italic;
+    font-style: oblique; */
+  font-style: normal;
+}

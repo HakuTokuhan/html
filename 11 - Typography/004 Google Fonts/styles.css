@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Slab&display=swap");
+/*
+Google fonts
+generic serif, san-serif, cursive, fantasy, monospace
+*/
+
+body {
+  font-family: "Alkatra", cursive;
+}
+h1 {
+  font-family: "Roboto Slab", serif;
+}
