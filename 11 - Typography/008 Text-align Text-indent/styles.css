@@ -1,0 +1,20 @@
+/*
+text-align, text-indent
+*/
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Slab&family=Sedgwick+Ave+Display&display=swap");
+body {
+  font-family: "Alkatra", cursive;
+  text-align: center;
+}
+.main-heading {
+  font-family: "Roboto Slab", serif;
+  text-align: right;
+}
+.sub-heading {
+}
+.one {
+}
+.two {
+  text-align: left;
+  text-indent: 50px;
+}
