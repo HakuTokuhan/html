@@ -1,0 +1,30 @@
+/* 
+CSS BOX MODEL, PADDING, MARGIN, BORDER
+*/
+
+* {
+  margin: 0;
+}
+h1,
+p {
+  color: white;
+}
+h1 {
+  background: red;
+  padding: 20px;
+  margin: 2rem;
+  /* border-style: solid;
+  border-width: 10px;
+  border-color: aquamarine; */
+  border-bottom-style: double;
+  border-bottom-color: saddlebrown;
+  border-bottom-width: 15px;
+}
+p {
+  background: blue;
+  border: 2rem dashed darkgoldenrod;
+  /* padding: 40px;
+  padding: 30px 60px; */
+  margin: 3rem 15px 40px 5px;
+  padding: 5px 20px 40px 35px;
+}
