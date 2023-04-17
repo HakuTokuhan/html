@@ -1,0 +1,9 @@
+.block {
+  background: blue;
+  color: white;
+}
+.line {
+  background: red;
+  color: white;
+  display: inline;
+}
