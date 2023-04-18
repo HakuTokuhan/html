@@ -1,0 +1,18 @@
+/* 
+    HORIZONTAL CENTERING
+*/
+.block {
+  background: blue;
+  color: white;
+  width: 300px;
+  margin: 2rem auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+.line {
+  background: red;
+  color: white;
+}
+body {
+  text-align: right;
+}

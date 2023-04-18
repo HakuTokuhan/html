@@ -1,0 +1,40 @@
+/* 
+    BLOCK: brower respects width/height, top/bottom margin
+    INLINE: brower does not respects width/height, top/bottom margin
+    Navbar
+    list-type-type:property
+    descendant selectors
+*/
+
+/* span {
+  background: blue;
+  color: white;
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li {
+  list-style-type: none;
+}
+ul li a {
+  color: #f15025;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background: #222;
+  display: block;
+  padding: 5px;
+  /* margin: 10px 10px; */
+}
+ul a {
+  color: green;
+}
