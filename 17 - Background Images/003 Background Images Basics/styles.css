@@ -1,0 +1,14 @@
+div {
+  height: 300px;
+  color: white;
+}
+
+.big-image {
+  background: url("./big.jpg");
+}
+.small-image {
+  background: url("./small.jpg");
+}
+.folder-img {
+  background: url("./images/folder-img.jpg");
+}
