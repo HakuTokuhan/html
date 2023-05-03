@@ -1,0 +1,37 @@
+/* background-position */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  color: white;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.big-image {
+  background: url("./big.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+.small-image {
+  background: url("./images/folder-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.folder-img {
+  background: linear-gradient(to top, rgba(0, 0, 00.5), rgba(0, 0, 0, 0.5)),
+    url("./big.jpg") center/cover no-repeat fixed;
+}
